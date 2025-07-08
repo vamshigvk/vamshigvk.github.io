@@ -8,11 +8,11 @@
   },
   "site": {
     "title": "G Vamshi Krishna",
-    "description": "Developer Portfolio",
+    "description": "Software Engineer III at JPMorgan Chase & Co.",
     "seo": {
-      "title": "G Vamshi Krishna - Developer Portfolio",
+      "title": "G Vamshi Krishna - Software Engineer III",
       "description": "Developer Portfolio of G Vamshi Krishna",
-      "keywords": "developer, portfolio, github",
+      "keywords": "LLMs, AWS, Kubernetes, Python, ML, Portfolio",
       "author": "G Vamshi Krishna",
       "og_image": "https://avatars.githubusercontent.com/vamshigvk",
       "twitter_card": "summary_large_image",
@@ -20,8 +20,8 @@
     }
   },
   "header": {
-    "greeting": "G Vamshi Krishna",
-    "tagline": "Developer and Creator."
+    "greeting": "Hi, I'm G Vamshi Krishna",
+    "tagline": "Software Engineer | ML & LLM Enthusiast | Cloud Native Developer"
   },
   "social_links": [
     {
@@ -29,13 +29,19 @@
       "url": "https://github.com/vamshigvk",
       "icon": "github",
       "required": true
+    },
+    {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/vamshigvk",
+      "icon": "linkedin",
+      "required": false
     }
   ],
   "github_username": "vamshigvk",
   "about": {
     "paragraphs": [
-      "Welcome to my portfolio! I'm passionate about creating amazing digital experiences and solving complex problems through code.",
-      "This portfolio showcases my journey, projects, and skills. Feel free to explore and get in touch if you'd like to collaborate!"
+      "Experienced Software Engineer with 7+ years in developing AI/ML solutions, specializing in LLMs, AWS Cloud, and Kubernetes.",
+      "At JPMorgan Chase, I work on designing and deploying scalable machine learning models, building conversational AI agents, and creating innovative products that enhance the employee experience."
     ]
   },
   "projects": {
@@ -45,14 +51,28 @@
         "name": "Portfolio Website",
         "date": "July 3, 2025",
         "description": [
-          "A modern, responsive portfolio website built with vanilla JavaScript",
-          "Features dark/light mode, dynamic content loading, and GitHub integration",
-          "Fully configurable through JSON with automated README generation"
+          "A modern, responsive portfolio website built with vanilla JavaScript.",
+          "Supports theme toggle, JSON-based content, and dynamic GitHub project listing.",
+          "Fully deployed and hosted via GitHub Pages."
         ],
-        "picture": "assets/projects/Placeholder.png",
+        "picture": "assets/projects/portfolio.png",
         "link": {
           "url": "https://vamshigvk.github.io",
           "title": "View Live Site"
+        }
+      },
+      {
+        "name": "AudioCast - Internal Podcast Tool",
+        "date": "June 2025",
+        "description": [
+          "Built and showcased during JPMorgan Innovation Week 2025.",
+          "Converts text content into engaging audiobooks/podcasts using AWS Polly.",
+          "Focus on UX, audio content consumption trends, and internal productivity boost."
+        ],
+        "picture": "assets/projects/audiocast.png",
+        "link": {
+          "url": "https://github.com/vamshigvk/audiocast",
+          "title": "View on GitHub"
         }
       }
     ]
@@ -61,17 +81,29 @@
     "title": "Professional Experience",
     "jobs": [
       {
-        "company": "Your Company Name",
-        "role": "Your Job Title",
-        "date": "Start Date - Present",
+        "company": "JPMorgan Chase & Co.",
+        "role": "Software Engineer III",
+        "date": "Feb 2025 - Present",
         "responsibilities": [
-          "Add your key responsibilities and achievements here",
-          "Include specific technologies you worked with",
-          "Mention any notable projects or impact metrics",
-          "Update this section with your actual work experience"
+          "Designing and deploying ML pipelines using AWS SageMaker.",
+          "Developing LLM-based chat agents using OpenAI, LangChain, ChromaDB.",
+          "Contributed to AudioCast product for Innovation Week 2025, enhancing auditory content delivery for internal users.",
+          "Led microservice deployments on Kubernetes with Terraform and Spinnaker CI/CD."
         ],
-        "logo": "assets/logos/Placeholder_Logo.png",
-        "logo_dark": "assets/logos/Placeholder_Logo.png"
+        "logo": "assets/logos/jpmorgan.png",
+        "logo_dark": "assets/logos/jpmorgan_dark.png"
+      },
+      {
+        "company": "Capgemini",
+        "role": "Senior Software Engineer → Associate Consultant",
+        "date": "Jun 2018 - Jun 2021",
+        "responsibilities": [
+          "Built machine learning solutions and APIs for insurance domain.",
+          "Won Rising Star award in Q4 2020 for project delivery and innovation.",
+          "Performed Java to Python migrations for legacy risk engine systems."
+        ],
+        "logo": "assets/logos/capgemini.png",
+        "logo_dark": "assets/logos/capgemini_dark.png"
       }
     ]
   },
@@ -79,31 +111,45 @@
     "title": "Skills & Technologies",
     "categories": [
       {
-        "name": "Programming Languages & Technologies",
+        "name": "Programming & ML",
         "items": [
-          "JavaScript",
           "Python",
           "Java",
-          "TypeScript"
+          "BERT, RoBERTa, DistilBERT",
+          "LangChain",
+          "OpenAI APIs"
         ]
       },
       {
-        "name": "Tools & Platforms",
+        "name": "Cloud & DevOps",
         "items": [
-          "Git",
-          "GitHub",
-          "VS Code",
-          "Docker"
+          "AWS (SageMaker, Lambda, EKS, Bedrock, etc.)",
+          "Terraform",
+          "Docker",
+          "Kubernetes",
+          "GitHub Actions"
         ]
       },
       {
         "name": "Certifications",
         "items": [
           {
-            "name": "Add your certification name here",
-            "url": "https://example.com/your-certification-link"
+            "name": "HashiCorp Certified: Terraform Associate (003)",
+            "url": "https://www.credly.com/badges/hashicorp-certified-terraform-associate"
           },
-          "You can also add certifications without links"
+          {
+            "name": "AWS Certified Solutions Architect – Associate (SAA-C02)",
+            "url": "https://www.credly.com/badges/aws-solutions-architect-associate"
+          },
+          {
+            "name": "AWS Certified Developer – Associate (DVA-C01)",
+            "url": "https://www.credly.com/badges/aws-certified-developer-associate"
+          },
+          {
+            "name": "Microsoft Certified: Azure Fundamentals (AZ-900)",
+            "url": "https://www.credly.com/badges/microsoft-azure-fundamentals"
+          },
+          "AI Agents Fundamentals - HuggingFace"
         ]
       }
     ]
@@ -115,6 +161,6 @@
     "show_social_links": true,
     "show_built_with": true,
     "built_with_text": "Built with ❤️ using vanilla JavaScript",
-    "tagline": "Let's connect and build something amazing together!"
+    "tagline": "Open for collaboration and innovation."
   }
 }
